@@ -1,0 +1,46 @@
+//pass function as value to another function arams) {
+//Arraow functions always a annonymous.
+function timeout1() {
+  console.log("TImeOut");
+}
+
+const timeout2 = () => {
+  console.log("TImeOut ....Again!!!!");
+};
+
+setTimeout(timeout1);
+setTimeout(timeout1());
+//both are different meaning. second one send the return value, which is not required.
+setTimeout(timeout1, 2000);
+setTimeout(timeout2, 3000);
+//or
+setTimeout(() => {
+  console.log("Once more timeout");
+}, 4000);
+//this can be done for user defined function also.
+
+
+
+//defininng functions inside function
+//29-defining function inside of a function.
+function init() {
+  function greet() {
+    console.log("Helo....");
+  }
+
+  greet(); //allowed here.
+}
+
+greet(); //XXXXXXXXXXXX- not allowed here.
+
+init(); //YYYYYYYYYY--- allowed here.
+
+//30- reference vs Primitive values..
+//---> while working with primitive type values/variables, it always create new values, don't modify the original value.
+//---> But this doesn't happen with objects, arrays.
+//32-JS Array Functions.
+//map(), filter(), reduce()  etc.
+
+
+
+
