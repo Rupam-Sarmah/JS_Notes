@@ -1,0 +1,36 @@
+//Destructuring
+const userName = ["aaaa", "bbbb"];
+const firstName = userName[0];
+const lastName = userName[1];
+
+//Above three (3) lines also can be write as below
+
+const [first, last] = ["aaa", "bbb"];
+console.log(first);
+console.log(last);
+//this is de-structuring-- also works with objects..
+
+const { name: username, age } = {
+  name: "gggg",
+  age: 44,
+};
+
+//here "userName" is aliase only.
+
+//24-Spread Operator
+// ... this three dots is spread Operator
+
+const hobby = ["aaa", "bbb"];
+const newHobby = ["ccc"];
+
+const mergedHobby = [...hobby, ...newHobby]; //o/p: one array
+const mHobby = [hobby, newHobby]; // o/p: nested arrays.
+
+const user = {
+  name: "gggg",
+  age: 44,
+};
+const extendedUser = {
+  isAdminUser: true,
+  ...user,
+};
