@@ -1,0 +1,9 @@
+//34-Modeule introduction
+//35-Core titles of Reactjs
+//36-Setting up the project
+npm install
+npm run dev
+//37-jsx and react component(core concept)
+->function name must starts with UpperCase character.
+->function must return rederable value.
+//38- create the firest custom components
