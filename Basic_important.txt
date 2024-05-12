@@ -7,3 +7,9 @@ const hobbies=["sport", "dance","work"];
 for(const hobby of hobbies){
   console.log(hobby); // will execute this line three times
 }
+================================================
+27.
+we dont do dom manipulation in reactJs.
+
+const list= document.querySelector("ul")
+list.remove();
