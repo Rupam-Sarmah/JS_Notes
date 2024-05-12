@@ -1,0 +1,32 @@
+//in js, Arrays are objects but special kind of objects.
+const hobby = ["aaa", "bbb", "ccc"];
+console.log(hobby[2]);
+
+hobby.push("dddd");
+//lots of functions available to work with the array.
+
+const index = hobby.findIndex((item) => {
+  return item === "bbb";
+});
+
+//equivalent is:
+
+// const index = hobby.findIndex(function(item) {
+//     return item === "bbb";
+//   });
+
+//here, "item" represents each elements of hobby[]
+console.log(index); //1
+
+//shorter version of the above code
+
+//const index=hobby.findIndex(item=> item==="bbb");
+
+//map() function: map allow us to transform every item of the array to another item.
+//map doesn't change the original elements but changes in a copy.
+
+const editedHobby = hobby.map((item) => item + "!!!");
+console.log(editedHobby); //[aaa!!!, bbb!!!, ccc!!!, ddd!!!];
+
+//tranformm elementsof hobby to objects
+const objHobby = hobby.map((item) => ({ text: item }));
