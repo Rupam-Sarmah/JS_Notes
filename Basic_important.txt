@@ -1,3 +1,9 @@
 prompt();
 const password=prompt("ENter your password");
 This prompt() function allow user to enter inputs in runtime.
+================================================
+for loop control through an array.
+const hobbies=["sport", "dance","work"];
+for(const hobby of hobbies){
+  console.log(hobby); // will execute this line three times
+}
