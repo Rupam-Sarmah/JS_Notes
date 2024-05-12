@@ -1,0 +1,3 @@
+prompt();
+const password=prompt("ENter your password");
+This prompt() function allow user to enter inputs in runtime.
