@@ -7,3 +7,14 @@ npm run dev
 ->function name must starts with UpperCase character.
 ->function must return rederable value.
 //38- create the firest custom components
+https://codesandbox.io/p/sandbox/react-essentials-start-gsmr8r
+https://codesandbox.io/p/sandbox/react-essentials-start-forked-vhn5mx?file=%2Fsrc%2Findex.js
+
+
+
+//40-How React Handles components & how it builds a "Component Tree"
+build-in-components---->lower case, rendered as dom node, official html component is valid.
+user-components-----> Uppercase, wraps other built-in-components.
+
+//41-Using & outputting dynamaics values
+
