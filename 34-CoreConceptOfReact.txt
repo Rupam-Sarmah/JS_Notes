@@ -46,3 +46,8 @@ image={componentsImg}
 <CoreConcept />
 </ul>
 </main>
+
+
+
+
+//44-Alternative props concept
