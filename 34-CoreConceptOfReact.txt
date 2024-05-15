@@ -17,4 +17,32 @@ build-in-components---->lower case, rendered as dom node, official html componen
 user-components-----> Uppercase, wraps other built-in-components.
 
 //41-Using & outputting dynamaics values
+//42-Quiz or test
+//43-Making concepts reusable with props..
 
+React allows you to pass data to components via a concept called "Props".
+--creation of one props function
+
+
+function CoreConcept(props){
+return (
+<li>
+<img src={props.image} alt={props.title} />
+<h3>{props.title}</h3>
+<p>{props.description}</p>
+</li>
+);}
+
+
+How to use--->
+<main>
+<ul>
+<CoreConcept
+title="Component"
+description="The core UI concept"
+image={componentsImg}
+/>
+<CoreConcept />
+<CoreConcept />
+</ul>
+</main>
