@@ -51,3 +51,44 @@ image={componentsImg}
 
 
 //44-Alternative props concept
+//Test
+
+export function CourseGoal({title,description}) {
+  return (
+    <li>
+      {/*<h2>{props.title}</h2>
+      <p>{props.description}</p>*/}
+      <h2>{title}</h2>
+      <p>{description}</p>
+    </li>
+  );
+}
+export const Core=[
+    {
+        title:"Learn React",
+        description: "In-depth.",
+    },
+    {
+        title: "Practice",
+        description: "Practice makes permanent."
+    }
+];
+
+function App() {
+  return (
+    <div id="app" data-testid="app">
+      <h1>Time to Practice</h1>
+      <p>One course, many goals! 🎯</p>
+      <ul>
+        {/* OUTPUT AT LEAST TWO CourseGoal components here */}
+        {/* One of them should have a title of “Learn React” and a description of “In-depth” */}
+        {/*<CourseGoal title={Core[0].title} description={Core[0].description} />
+        <CourseGoal title={Core[1].title} description={Core[1].description} />*/}
+        <CourseGoal {...Core[0]} />
+        <CourseGoal {...Core[1]} />
+      </ul>
+    </div>
+  );
+}
+
+export default App;
