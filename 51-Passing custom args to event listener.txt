@@ -1,0 +1,23 @@
+//51- passing custom argument.
+
+
+<Tab onSelect={handleEvent}>this component </Tab> (previous)
+<Tab onSelect={()=>handleEvent()}> This Component</Tab> (now)
+or
+<Tab onSelect={function() {handleEvent}>This Component </Tab>
+
+Now, we can use as below:
+<Tab onSelect={()=>handleEvent('componet')}> This Component</Tab>
+<Tab onSelect={()=>handleEvent('jsx')}> This Jsx</Tab>
+<Tab onSelect={()=>handleEvent('css')}> This CSS</Tab>
+
+Before this handleEvent function will be like this:
+function handleEvent(selectedButton){
+console.log(selectedButton);
+}
+
+//On pressing the buttons , in the console, display willbe like, component, jsx, css etc.
+
+
+
+//52-How NoT to update UI
