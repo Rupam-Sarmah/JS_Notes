@@ -1,0 +1,39 @@
+//52-hooks
+Managing state and hooks
+
+{useState} from 'react'; a react library.
+
+useState();-- call must at top level of components.
+
+useState('Please click a button'); - storing default value.
+It is a array. Accept array destructuring.
+const arr[] = useState('please click');
+or
+
+const [selectOne, selectTwo]= useState('Please click');
+
+or 
+
+const[one, setOne]=useState('0');
+one-->inital value/ actual data which is we are managing,
+setTwo--> a function, it must be execute again
+//sample
+import React from 'react';
+export default function App() {
+    
+    const [price, setPrice]=React.useState(100);// 100 is the default price, price is the data, setPrice is the function
+    
+    function updatePrice(){
+        setPrice(75);// external function to use the setPrice function
+    }
+    return (
+        <div>
+            <p data-testid="price">${price}</p>
+            <button onClick={updatePrice}>Apply Discount</button> //adding event listener to update price.
+        </div>
+    );
+}
+
+
+//54-deriving based on useState.
+
