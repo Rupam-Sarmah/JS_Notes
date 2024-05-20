@@ -21,3 +21,19 @@ console.log(selectedButton);
 
 
 //52-How NoT to update UI
+//some css class-
+justify-between
+mx-[10px] or mx-[10%]-->custom values with the help of variable
+hidden
+block->display
+cursor-pointer
+&#8801--> hemburgur code(html entity) . Need to add in <a> tag.
+border-b-4 border-2
+flex-wrap
+justify-evenly
+justify-around
+tracking-wide
+max-w-sm
+overflow-hidden
+max-w-2xl
+pexels web site for images
