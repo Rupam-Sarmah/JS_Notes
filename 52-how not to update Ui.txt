@@ -36,4 +36,7 @@ export default function App() {
 
 
 //54-deriving based on useState.
-//55-Rendering componentsconditionally
+//55-Rendering components conditionally
+
+//56-Css Styling and dynamic styling
+//57- dynamic content  using map function
