@@ -1,0 +1,15 @@
+59
+60
+//61- fragments
+in react, we can return multiple value. We can return only value(this one value may contain multiple value ).
+return(
+<div><p/><p/></div>
+);
+This is valid but not below one.
+return(<p/><p/>);
+
+basically, we need one wrapping value before returning somthing.For this react provide us "Fragment" component.But now, react accept empty tag also <>,</>.
+
+//coding exercise
+
+//62-When we should split component
