@@ -12,4 +12,7 @@ basically, we need one wrapping value before returning somthing.For this react p
 
 //coding exercise
 
-//62-When we should split component
+//63 -When we should split component
+
+//64- spliting the components based on features and state
+//65- problem: Props are not forwarded to inner elements
