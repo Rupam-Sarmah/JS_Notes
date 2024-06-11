@@ -16,3 +16,18 @@ basically, we need one wrapping value before returning somthing.For this react p
 
 //64- spliting the components based on features and state
 //65- problem: Props are not forwarded to inner elements
+->Forwarded Props
+->Multiple Components Slots
+->Element Identifiers as Props
+->Default Prop Values
+
+
+//66- forwarded props to wrap elements
+
+...props --->
+
+//68- dynamic setting
+
+//69-setting default prop values
+
+//70-tic tac toe projects
