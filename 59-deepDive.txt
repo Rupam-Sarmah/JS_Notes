@@ -31,3 +31,12 @@ basically, we need one wrapping value before returning somthing.For this react p
 //69-setting default prop values
 
 //70-tic tac toe projects
+
+//71- Not all contents go to components
+Basic startup
+
+//72- public folder vs src/asset folder in react
+images stored in the public folder can be accessed directly from browser. e.g., localhost:5173/some-image.jpg
+but src/asset images are only accessable by the project or in the project. e.g., localhost:5173/src/assets/some-image.jpg--> this will give us error 
+
+//73-project logic step
